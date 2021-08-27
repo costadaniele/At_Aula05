@@ -1,0 +1,12 @@
+<h2>Juros Simples</h2>
+<div>Valor presente:</div>
+<input class="form-control" type="number" step="0.01" />
+<div>Taxa de juros:</div>
+<input class="form-control" type="number" step="0.01" />
+<div>Meses:</div>
+<input class="form-control" type="number" step="1" />
+<hr />
+<h3>Valor futuro</h3>
+<div>{{getValorFuturo() | currency}}</div>
+<h3>Juros</h3>
+<div>{{getJuros() | currency}}</div>
